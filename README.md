@@ -19,5 +19,5 @@ A collection of useful RegEx patterns all tested with [regex101.com](regex101.co
 - Time 24-hour: `([0-9]|1[0-9]|2[0-3]):[0-5][0-9]`
 
 # Other
-- Webstie URL: `(?x) ((https?:\/\/)|(www\.)) ([-a-zA-Z0-9@:%._\+~#=]{2,256} \. [a-z]{2,6}) ([-a-zA-Z0-9@:%_\+.~#()?&\/=]*)`
+- Website URL: `(?x) ((https?:\/\/)|(www\.)) ([-a-zA-Z0-9@:%._\+~#=]{2,256} \. [a-z]{2,6}) ([-a-zA-Z0-9@:%_\+.~#()?&\/=]*)`
 - Email: `(([[:alnum:]_-])|((?<!\.|^)\.))+@(?1)+` (Not perfect: doesn't enforce top-level domain name, allows "." at the beginning of the domain name & at the end of username & top-level domain name.)
